@@ -2,7 +2,7 @@
 
 This repository contains my personal collection of [Yasnippet](https://github.com/joaotavora/yasnippet) snippets, organized by major mode.
 It is meant to be a reusable snippet library that I can keep under version control and sync across machines.
-Many have been inspired by [Karthinks](https://github.com/karthink/yasnippets) and [Gilles Castel$^{\dag}$](https://castel.dev/post/lecture-notes-1/).
+Many have been inspired by [Karthinks](https://github.com/karthink/yasnippets) and [Gilles Castel (RIP)](https://castel.dev/post/lecture-notes-1/).
 
 ---
 
