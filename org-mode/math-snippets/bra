@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bra
+# key: bra
+# group: math
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\bra{$0}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: gg
+# key: >>
+# group: math
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\gg

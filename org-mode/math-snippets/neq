@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: neq
+# key: neq
+# group: math
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\neq

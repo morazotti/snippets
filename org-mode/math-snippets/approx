@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: approx
+# key: ~=
+# group: math
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\approx
