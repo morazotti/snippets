@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: latex header
+# key: lh
+# group: skeleton
+# --
+#+latex_header: ${1:\\usepackage{$2}}
+$0
