@@ -2,6 +2,6 @@
 # name: to
 # key: ->
 # group: math
-# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# condition: (org-inside-LaTeX-fragment-p)
 # --
 \to$0
