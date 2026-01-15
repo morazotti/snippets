@@ -1,0 +1,6 @@
+# key: frag
+# name: fragment style
+# condition: 'auto
+# --
+#+attr_reveal: :frag (${1:none}) :frag_idx ${1:$(number-sequence 1 (length (split-string yas-text)))}
+$0

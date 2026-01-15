@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: reveal auto animate
+# key: reani
+# group: ox-reveal
+# --
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+$0

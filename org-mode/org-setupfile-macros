@@ -1,0 +1,19 @@
+# name: org macros
+# key: macros
+# type: command
+# group: skeleton
+# --
+(save-excursion
+    (let* ((macro-dir (file-name-concat user-emacs-directory "macros/"))
+	   (macro-files (directory-files macro-dir nil "^[^.]")))
+      (insert
+       (format "#+SETUPFILE: %s"
+	       (expand-file-name
+		(consult--read
+		 macro-files
+		 :prompt "Choose macro-file to insert"
+		 :category 'file
+		 :state (consult--file-preview)
+		 :lookup (lambda (selected candidates input narrow)
+			   (expand-file-name selected macro-dir)))
+		macro-dir)))))

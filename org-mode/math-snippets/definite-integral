@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: definite integral
+# key: dint
+# group: math
+# type: snippet
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\\int\\limits_\{$0\}^\{\}\\dd\{\}
