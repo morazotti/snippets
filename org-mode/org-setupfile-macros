@@ -1,0 +1,21 @@
+# name: org macros
+# key: macros
+# type: command
+# group: skeleton
+# --
+(save-excursion
+    (let*
+	((macro-dir
+	(file-name-concat user-emacs-directory "macros/")))
+    (list-directory macro-dir) (switch-to-buffer "*Directory*")
+    (line-move 1)
+    (let*
+	((macro-files
+	    (split-string
+	    (buffer-substring-no-properties
+	    (line-beginning-position) (line-end-position))))
+	    (_ (kill-buffer "*Directory*"))
+	    (chosen-file (completing-read "Choose macro-file to insert:" macro-files)))
+	(insert
+	(format "#+SETUPFILE: %s"
+		(expand-file-name chosen-file macro-dir))))))
