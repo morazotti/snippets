@@ -1,0 +1,53 @@
+# -*- mode: snippet -*-
+# name: tikz insert grid
+# group: skeleton
+# key: <tikzgrid
+# --
+\newif\ifgridborder
+\gridborder${1:true} % use \gridborderfalse para apagar a borda
+
+\newif\ifgridbrace
+\gridbrace${2:true} % use \gridbracefalse para não mostrar o brace
+
+% número de quadrados na direção x e y
+\newcommand{\Nx}{${3:10}}
+\newcommand{\Ny}{${4:10}}
+
+% distância (em pt) entre as linhas em x e y
+\newcommand{\dx}{${5:10}pt}
+\newcommand{\dy}{${6:10}pt}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[x=\dx,y=\dy,scale=0.8]
+
+  % linhas verticais internas
+  \foreach \x in {1,...,\numexpr \Nx-1\relax} {
+    \draw (\x,0) -- (\x,\Ny);
+  }
+
+  % linhas horizontais internas
+  \foreach \y in {1,...,\numexpr \Ny-1\relax} {
+    \draw (0,\y) -- (\Nx,\y);
+  }
+
+  % borda do reticulado (opcional)
+  \ifgridborder
+    \draw (0,0) rectangle (\Nx,\Ny);
+  \fi
+
+  % brace para marcar o tamanho do espaço entre duas linhas da grid (opcional)
+  \ifgridbrace
+    % brace horizontal (distância entre duas linhas verticais, aqui 1 unidade)
+    \draw[decorate,decoration={brace,amplitude=5pt,raise=4pt}]
+      (0,-0.2) -- (1,-0.2)
+      node[midway,below=6pt] {$${7:a}$};
+
+    % brace vertical (distância entre duas linhas horizontais, aqui 1 unidade)
+    \draw[decorate,decoration={brace,amplitude=5pt,raise=4pt}]
+      (-0.2,0) -- (-0.2,1)
+      node[midway,left=6pt] {$${8:b}$};
+  \fi
+
+\end{tikzpicture}
+\end{figure}

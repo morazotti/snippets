@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: derivative operator
-# key: dvt
+# name: linebreak
+# key: ;;
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\dv{${1:t}}$0
+\\\\
+$0

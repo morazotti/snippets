@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: derivative operator
-# key: dvt
-# group: math
+# name: hbar
+# key: hh
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# group: math
 # --
-\dv{${1:t}}$0
+\hbar $0

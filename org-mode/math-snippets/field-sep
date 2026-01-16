@@ -1,0 +1,5 @@
+# key: ,,
+# name: field separator
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+& $0

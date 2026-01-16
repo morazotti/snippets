@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: fourth
+# key: qt
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# group: math
+# type: command
+# --
+(delete-horizontal-space t)
+(insert "^4")

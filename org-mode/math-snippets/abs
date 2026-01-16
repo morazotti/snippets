@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: derivative operator
-# key: dvt
+# name: abs
+# key: abs
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\dv{${1:t}}$0
+\abs{$1} $0

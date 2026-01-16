@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: derivative operator
-# key: dvt
+# name: expectation value
+# key: ev
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\dv{${1:t}}$0
+\ev{$1}$0

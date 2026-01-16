@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# name: derivative operator
-# key: dvt
+# name: cancel
+# key: cnc
 # group: math
+# type: command
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\dv{${1:t}}$0
+(my/yas-math-modify-accent "cancel")

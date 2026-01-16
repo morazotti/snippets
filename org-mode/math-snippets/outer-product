@@ -2,6 +2,6 @@
 # name: outer product
 # key: op
 # group: math
-# condition: (org-inside-LaTeX-fragment-p)
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
 \op{$1}{$2}$0

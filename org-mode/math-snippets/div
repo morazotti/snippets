@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: derivative operator
-# key: dvt
+# name: divergence
+# key: div
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\dv{${1:t}}$0
+\nabla \cdot $0

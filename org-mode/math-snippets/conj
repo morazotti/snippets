@@ -6,4 +6,4 @@
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
 (delete-horizontal-space t)
-(insert "^{\\*}")
+(insert "^{*}")
