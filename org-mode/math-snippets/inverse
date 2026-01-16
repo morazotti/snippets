@@ -1,7 +1,7 @@
-# -*- mode: snippet -*-
-# name: leq
-# key: leq
+# name: inverse
+# key: inv
 # group: math
+# type: snippet
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\leq 
+^\{-1\} $0

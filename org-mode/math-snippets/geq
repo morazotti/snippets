@@ -4,4 +4,4 @@
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\geq
+\geq 

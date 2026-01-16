@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: leq
-# key: leq
+# name: mapsto
+# key: |>
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\leq 
+\mapsto $0

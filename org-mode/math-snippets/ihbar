@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: leq
-# key: leq
-# group: math
+# name: ihbar
+# key: ihh
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# group: math
 # --
-\leq 
+i\hbar $0

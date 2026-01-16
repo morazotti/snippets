@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
-# name: leq
-# key: leq
+# name: matrix
+# key: mat
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\leq 
+\begin{${1:b}matrix}
+$0
+\end{$1matrix}

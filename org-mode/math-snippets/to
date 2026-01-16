@@ -4,4 +4,4 @@
 # group: math
 # condition: (org-inside-LaTeX-fragment-p)
 # --
-\to$0
+\to $0

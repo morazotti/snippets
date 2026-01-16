@@ -1,0 +1,5 @@
+# key: mdet
+# name: mdet
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\mdet{$0}

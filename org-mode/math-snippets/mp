@@ -1,0 +1,5 @@
+# key: mp
+# name: mp
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\mp $0

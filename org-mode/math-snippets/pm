@@ -1,0 +1,5 @@
+# key: pm
+# name: pm
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\pm $0

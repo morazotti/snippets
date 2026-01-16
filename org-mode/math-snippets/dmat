@@ -1,0 +1,6 @@
+# key: dmat
+# name: diagonal matrix
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# group: math
+# --
+\\dmat${1:[0]}{$0}

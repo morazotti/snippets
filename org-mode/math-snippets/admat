@@ -1,0 +1,6 @@
+# name: antidiagonal matrix
+# key: admat
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# group: math
+# --
+\\admat${1:[0]}{$0}

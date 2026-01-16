@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: leq
-# key: leq
+# name: textcolor
+# key: color
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\leq 
+\textcolor{${1:blue}}{$0}

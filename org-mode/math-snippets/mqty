@@ -1,0 +1,5 @@
+# key: mqty
+# name: mqty
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\mqty($0)

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: leq
-# key: leq
+# name: caligraphic ell
+# key: ll
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\leq 
+\ell 

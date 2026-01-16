@@ -1,0 +1,5 @@
+# key: set
+# name: set
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\\left\\{ $1 \\right\\}$0

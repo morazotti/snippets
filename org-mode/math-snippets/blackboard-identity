@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: leq
-# key: leq
+# name: blackboard identity
+# key: id
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\leq 
+\mathbb{I}
