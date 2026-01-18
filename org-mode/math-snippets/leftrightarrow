@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: leftrightarrow
+# key: <->
+# group: math
+# condition: (org-inside-LaTeX-fragment-p)
+# --
+\leftrightarrow $0

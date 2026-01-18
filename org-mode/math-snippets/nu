@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: nu
+# key: nu
+# condition: (and  (org-inside-LaTeX-fragment-p) 'auto)
+# group: math
+# --
+\\nu $0

@@ -1,6 +1,6 @@
-# key: mdet
-# name: mdet
+# key: det
+# name: det
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # group: math
 # --
-\mdet{$0}
+\det{$0}

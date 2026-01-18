@@ -1,0 +1,5 @@
+# key: mu
+# name: mu
+# condition: (and  (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\\mu $0

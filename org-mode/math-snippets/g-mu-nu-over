@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: approx
-# key: ~=
-# group: math
+# name: g-mu-nu-over
+# key: gmno
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# group: math
 # --
-\approx $0
+g^{\mu\nu} $0
