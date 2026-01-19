@@ -5,4 +5,4 @@
 # type: snippet
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\\sum $0
+\\sum$0

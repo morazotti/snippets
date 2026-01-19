@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # name: definite sum
-# key: dsum
+# key: \suml
 # group: math
 # type: snippet
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\\sum\\limits_\{$0\}^\{\}
+\\sum\\limits_\{${1:n=0}\}^\{${2:\infty}\}
