@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
-# name: cancel
-# key: cnc
+# name: exponential
+# key: ee
 # group: math
-# type: command
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-(my/yas-math-modify-accent "cancel")
+e^\{$0\}

@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: hbar
-# key: hh
-# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
-# group: math
-# --
-\hbar $0
