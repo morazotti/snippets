@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: caligraphic ell
-# key: ll
+# name: gamma
+# key: gm
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\ell 
+\gamma^{$0}

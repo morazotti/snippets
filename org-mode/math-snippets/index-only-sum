@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: tilde
-# key: tilde
+# name: index-only sum
+# key: \sumi
 # group: math
-# type: command
+# type: snippet
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-(my/yas-math-modify-accent "tilde")
+\\sum\\limits_\{${1:n}\}

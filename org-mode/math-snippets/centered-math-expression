@@ -1,0 +1,6 @@
+# name: centered math expression
+# key: dm
+# group: math
+# condition: 'auto
+# --
+\\[$0\\]

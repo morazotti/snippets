@@ -1,9 +1,7 @@
 # -*- mode: snippet -*-
-# name: conj
-# key: conj
+# name: no number
+# key: nnb 
 # group: math
-# type: command
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-(delete-horizontal-space t)
-(insert "^{*}")
+\nonumber

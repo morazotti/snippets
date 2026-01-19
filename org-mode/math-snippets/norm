@@ -1,0 +1,5 @@
+# key: norm
+# name: norm
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+# --
+\norm{$1}$0

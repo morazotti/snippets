@@ -4,4 +4,4 @@
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\textcolor{${1:blue}}{$0}
+\\textcolor{`(yas-choose-value my/latex-colors-alist)`}{$1}$0

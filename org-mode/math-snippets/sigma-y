@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: gradient
-# key: grad
+# name: sigma y
+# key: sy
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\nabla $0
+\sigma_y $0

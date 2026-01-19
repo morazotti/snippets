@@ -1,7 +1,7 @@
-# name: inverse
-# key: inv
+# -*- mode: snippet -*-
+# name: pi
+# key: pi
 # group: math
-# type: snippet
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-^\{-1\} $0
+\pi $0

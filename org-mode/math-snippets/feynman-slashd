@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: feynman slashd
-# key: feyn
+# key: /f
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\cancel{${1:\\gamma}} $0
+\cancel{${1:\\partial}} $0

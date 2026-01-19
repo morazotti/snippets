@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: ihbar
-# key: ihh
+# name: exponential exp
+# key: xp
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
-# group: math
 # --
-i\hbar $0
+\\exp{$0}

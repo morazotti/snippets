@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: gradient
-# key: grad
+# name: exponential
+# key: ee
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\nabla $0
+e^\{$0\}

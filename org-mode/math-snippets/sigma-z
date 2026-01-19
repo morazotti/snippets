@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
-# name: bar
-# key: bar
+# name: sigma z
+# key: sz
 # group: math
-# type: command
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-(my/yas-math-modify-accent "bar")
+\sigma_z $0

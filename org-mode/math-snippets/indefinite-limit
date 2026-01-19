@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: hbar
-# key: hh
+# name: indefinite limit
+# key: lm
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
-# group: math
 # --
-\hbar $0
+\\lim$0

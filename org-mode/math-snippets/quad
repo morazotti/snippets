@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
-# name: cancel
-# key: cnc
+# name: quad
+# key: qq
 # group: math
-# type: command
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-(my/yas-math-modify-accent "cancel")
+\\qq{$0}
