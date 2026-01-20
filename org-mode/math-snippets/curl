@@ -4,4 +4,4 @@
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\curl $0
+\nabla \times $0

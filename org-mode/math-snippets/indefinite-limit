@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: gradient
-# key: grad
-# group: math
+# name: indefinite limit
+# key: lm
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\nabla $0
+\\lim$0

@@ -4,4 +4,4 @@
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\div $0
+\nabla \cdot $0

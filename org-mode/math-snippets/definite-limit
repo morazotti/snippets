@@ -1,0 +1,6 @@
+# key: \liml
+# name: definite limit
+# condition: (and (org-inside-LaTeX-fragment-p) 'auto)
+#group: math
+# --
+\\lim_{${1:n\to\infty}} $0

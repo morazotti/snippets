@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: gradient
-# key: grad
-# group: math
+# name: exponential exp
+# key: xp
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\nabla $0
+\\exp{$0}
