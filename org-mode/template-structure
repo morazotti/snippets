@@ -1,6 +1,6 @@
-# key: <be
+# key: ob
 # name: structure-template
 # --
-#+begin_${1:`(completing-read "Choose structure:" (mapcar 'cdr org-structure-template-alist))`}
+#+begin_${1:`(yas-choose-value (mapcar 'cdr org-structure-template-alist))`}
 $0
 #+end_$1
