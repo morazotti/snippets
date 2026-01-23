@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: org color
+# key: color
+# group: text
+# condition: (not (org-inside-LaTeX-fragment-p))
+# --
+{{{`(yas-choose-value my/latex-colors-alist)`($1)}}} $0

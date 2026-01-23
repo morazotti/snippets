@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: textcolor
-# key: color
+# name: Lambda
+# key: La
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
-\\textcolor{`(yas-choose-value my/latex-colors-alist)`}{$1}$0
+\Lambda $0
