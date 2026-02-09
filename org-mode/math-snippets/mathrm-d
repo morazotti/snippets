@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: integral dx
-# key: dd
+# key: dx
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --

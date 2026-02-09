@@ -1,6 +1,0 @@
-# name: inline math expression
-# key: mt
-# group: math
-# condition: 'auto
-# --
-\\($0\\)

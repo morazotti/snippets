@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: indefinite limit
-# key: lm
+# key: li
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
 \\lim$0

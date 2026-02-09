@@ -3,4 +3,4 @@
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 #group: math
 # --
-\\lim_{${1:n\to\infty}} $0
+\\lim_{${1:x} \to ${2:\infty}} $0
