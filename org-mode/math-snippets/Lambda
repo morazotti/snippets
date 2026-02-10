@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Lambda
-# key: La
+# key: Ld
 # group: math
 # condition: (and (org-inside-LaTeX-fragment-p) 'auto)
 # --
